@@ -1,5 +1,5 @@
 {
-  "version": "1.0.3",
+  "version": "1.0.4",
   "strapi": {
     "kind": "plugin",
     "name": "strapi-v5-search-multilingual",

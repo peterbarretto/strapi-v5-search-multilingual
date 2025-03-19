@@ -328,7 +328,7 @@ This project is licensed under the [MIT License](./LICENSE).
 ## Links and Resources 🔗  
 - [NPM Package](https://www.npmjs.com/package/strapi-v5-search-multilingual)  
 - [Strapi v5 Documentation](https://docs.strapi.io/)
-- [Strapi v4 Plugin ](https://www.npmjs.com/package/strapi-indexed-search-multilingual)
+- [Strapi v4 Plugin ](https://www.npmjs.com/package/strapi-search-multilingual)
 ---
 ## Future Development
 - __optimization of code__
