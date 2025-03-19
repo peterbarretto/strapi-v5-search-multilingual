@@ -27,7 +27,7 @@ One button to sync all entries in a collection to the search collection.
 ```
 Search Collection Listing Screenshot:
 
-![Screenshot](https://raw.githubusercontent.com/peterbarretto/strapi-v5-search-multilingual/refs/heads/main/screenshots/search-collection-listing.png)
+![Screenshot](https://raw.githubusercontent.com/peterbarretto/strapi-v5-search-multilingual/refs/heads/master/screenshots/search-collection-listing.png)
 
 
 ---
@@ -271,7 +271,7 @@ Response:
 }
 ```
 Screenshot:
-![Screenshot](https://raw.githubusercontent.com/peterbarretto/strapi-v5-search-multilingual/refs/heads/main/screenshots/search-tabs.png)
+![Screenshot](https://raw.githubusercontent.com/peterbarretto/strapi-v5-search-multilingual/refs/heads/master/screenshots/search-tabs.png)
 
 #### 2. Search Title (Autocomplete)
 
@@ -295,22 +295,22 @@ Response:
 ```
 Screenshot:
 
-![Screenshot](https://raw.githubusercontent.com/peterbarretto/strapi-v5-search-multilingual/refs/heads/main/screenshots/autocomplete-search.png)
+![Screenshot](https://raw.githubusercontent.com/peterbarretto/strapi-v5-search-multilingual/refs/heads/master/screenshots/autocomplete-search.png)
 
 
 Search Collection Screenshot:
 
-![Screenshot](https://raw.githubusercontent.com/peterbarretto/strapi-v5-search-multilingual/refs/heads/main/screenshots/search-collection-entry.png)
+![Screenshot](https://raw.githubusercontent.com/peterbarretto/strapi-v5-search-multilingual/refs/heads/master/screenshots/search-collection-entry.png)
 
 
 Sync Search Button Screenshot:
 
-![Screenshot](https://raw.githubusercontent.com/peterbarretto/strapi-v5-search-multilingual/refs/heads/main/screenshots/sync-button.png)
+![Screenshot](https://raw.githubusercontent.com/peterbarretto/strapi-v5-search-multilingual/refs/heads/master/screenshots/sync-button.png)
 To get the above button add the collections as shown below in the config file
 
 Sync Search Collection Config Screenshot:
 
-![Screenshot](https://raw.githubusercontent.com/peterbarretto/strapi-v5-search-multilingual/refs/heads/main/screenshots/sync-button-config.png)
+![Screenshot](https://raw.githubusercontent.com/peterbarretto/strapi-v5-search-multilingual/refs/heads/master/screenshots/sync-button-config.png)
 
 ---
 
