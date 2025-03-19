@@ -1,6 +1,24 @@
 {
-  "version": "0.0.0",
-  "keywords": [],
+  "version": "1.0.0",
+  "strapi": {
+    "kind": "plugin",
+    "name": "strapi-v5-search-multilingual",
+    "displayName": "Strapi v5 Search with multilanguage support",
+    "description": "Helps search all collections in strapi v5, inside components and dynamic zones also. Autocomplete api also provided for searching title attribute as configured in the search config file"
+  },
+  "name": "strapi-v5-search-multilingual",
+  "description": "Search plugin for strapi v5 with support for multi language",
+  "keywords": [
+    "strapi v5",
+    "strapi v5 search",
+    "strapi v5 search plugin",
+    "search",
+    "multilanguage search",
+    "search multilingual",
+    "search plugin",
+    "strapi v5 plugin",
+    "strapi autocomplete plugin"
+  ],
   "type": "commonjs",
   "exports": {
     "./package.json": "./package.json",
@@ -48,14 +66,15 @@
     "react-router-dom": "^6.30.0",
     "styled-components": "^6.1.15"
   },
-  "strapi": {
-    "kind": "plugin",
-    "name": "strapi-v5-search-multilingual",
-    "displayName": "Strapi v5 Search Multilingual",
-    "description": "Search plugin for strapi"
-  },
-  "name": "strapi-v5-search-multilingual",
-  "description": "Search plugin for strapi v5",
   "license": "MIT",
-  "author": "Peter Barretto <peterbarretto08@gmail.com>"
+  "author": "Peter Barretto <peterbarretto08@gmail.com>",
+  "main": "search.config.example.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peterbarretto/strapi-v5-search-multilingual.git"
+  },
+  "bugs": {
+    "url": "https://github.com/peterbarretto/strapi-v5-search-multilingual/issues"
+  },
+  "homepage": "https://github.com/peterbarretto/strapi-v5-search-multilingual#readme"
 }
