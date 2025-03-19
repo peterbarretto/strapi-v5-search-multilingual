@@ -1,5 +1,5 @@
 {
-  "version": "1.0.2",
+  "version": "1.0.3",
   "strapi": {
     "kind": "plugin",
     "name": "strapi-v5-search-multilingual",
@@ -68,7 +68,7 @@
   },
   "license": "MIT",
   "author": "Peter Barretto <peterbarretto08@gmail.com>",
-  "main": "search.config.example.js",
+  "main": "server/src/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/peterbarretto/strapi-v5-search-multilingual.git"
