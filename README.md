@@ -1,4 +1,7 @@
-# strapi-v5-search-multilingual
+# Strapi v5 Search Multilingual🌍🔍  
+[![npm version](https://img.shields.io/npm/v/strapi-v5-search-multilingual)](https://www.npmjs.com/package/strapi-v5-search-multilingual)  
+[![License](https://img.shields.io/npm/l/strapi-search-multilingual)](./LICENSE)  
+[![Downloads](https://img.shields.io/npm/dm/strapi-v5-search-multilingual)](https://www.npmjs.com/package/strapi-v5-search-multilingual)
 
 
 Strapi v5 Search Multilingual is a powerful plugin designed to bring multilingual full-text search capabilities to your Strapi application. 🗂️🌐 Whether you're managing a multilingual blog, e-commerce store, or any global content, this plugin simplifies search implementation across multiple languages.
@@ -312,7 +315,7 @@ Sync Search Collection Config Screenshot:
 ---
 
 ## Compatibility 🤝  
-This plugin is compatible with Strapi v4.  
+This plugin is compatible with Strapi v5.  
 
 ---
 
