@@ -1,5 +1,5 @@
 {
-  "version": "1.0.5",
+  "version": "1.0.6",
   "strapi": {
     "kind": "plugin",
     "name": "strapi-v5-search-multilingual",
@@ -18,25 +18,6 @@
     "search plugin",
     "strapi v5 plugin",
     "strapi autocomplete plugin"
-  ],
-  "type": "commonjs",
-  "exports": {
-    "./package.json": "./package.json",
-    "./strapi-admin": {
-      "source": "./admin/src/index.js",
-      "import": "./dist/admin/index.mjs",
-      "require": "./dist/admin/index.js",
-      "default": "./dist/admin/index.js"
-    },
-    "./strapi-server": {
-      "source": "./server/src/index.js",
-      "import": "./dist/server/index.mjs",
-      "require": "./dist/server/index.js",
-      "default": "./dist/server/index.js"
-    }
-  },
-  "files": [
-    "dist"
   ],
   "scripts": {
     "build": "strapi-plugin build",
@@ -68,7 +49,6 @@
   },
   "license": "MIT",
   "author": "Peter Barretto <peterbarretto08@gmail.com>",
-  "main": "server/src/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/peterbarretto/strapi-v5-search-multilingual.git"
