@@ -36,7 +36,8 @@ module.exports = {
     custom_populate:[
     ],
     auto_complete:{
-      search_by: 'startswith' //contains or startswith , default is startswith
+      search_by: 'startswith' 
+      //contains or startswith , default is startswith
     },
     sync_entities:
     ["api::initiative.initiative","api::product.product"]  
