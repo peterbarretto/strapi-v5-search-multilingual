@@ -3,5 +3,5 @@ import search from './search';
 
 export default {
   controller,
-  search,
+  search
 };

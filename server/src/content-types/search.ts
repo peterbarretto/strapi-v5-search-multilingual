@@ -1,4 +1,4 @@
-{
+const schema = {
   "kind": "collectionType",
   "collectionName": "searches",
   "info": {
@@ -59,4 +59,8 @@
       "type": "string"
     }
   }
+};
+
+export default {
+  schema
 }

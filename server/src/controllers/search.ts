@@ -1,16 +1,6 @@
-// 'use strict';
+import type { Core } from '@strapi/strapi';
 
-// /**
-//  *  controller
-//  */
-
-// const { createCoreController } = require('@strapi/strapi').factories;
-
-// module.exports = createCoreController('plugin::indexed-search.search');
-
-"use strict";
-
-module.exports = ({ strapi }) => ({
+const search = ({ strapi }: { strapi: Core.Strapi }) => ({
   async index(ctx) {
     return await strapi
       .plugin("strapi-v5-search-multilingual")
@@ -36,3 +26,5 @@ module.exports = ({ strapi }) => ({
       .autoComplete(ctx);
   },
 });
+
+export default search;

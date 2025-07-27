@@ -1,9 +1,9 @@
-import searchAPIRoutes from './search';
+import contentAPIRoutes from './content-api';
 
 const routes = {
   'content-api': {
     type: 'content-api',
-    routes: searchAPIRoutes,
+    routes: contentAPIRoutes,
   },
 };
 
