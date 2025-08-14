@@ -415,11 +415,11 @@ console.log(searchEntity);
       const fieldName = Object.keys(item)[0];
       if (searchEntities[0].fields.includes(fieldName)) {
         strapi.documents("plugin::strapi-v5-search-multilingual.search").create({
+          locale,
           data: {
             entity_id: entity.documentId,
             entity: searchEntities[0].name,
             content: item[fieldName],
-            locale,
           },
         });
       }
@@ -439,12 +439,12 @@ console.log(searchEntity);
 
     if (content) {
       strapi.documents("plugin::strapi-v5-search-multilingual.search").create({
+        locale,
         data: {
           entity_id: entityId,
           original_entity: originalEntity,
           entity: entityName,
           content,
-          locale,
           title,
         },
       });
