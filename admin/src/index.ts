@@ -1,24 +1,10 @@
-import { getTranslation } from './utils/getTranslation';
+import type { StrapiApp } from '@strapi/admin/strapi-admin'
 import { PLUGIN_ID } from './pluginId';
 import { Initializer } from './components/Initializer';
-import { PluginIcon } from './components/PluginIcon';
+import SyncButton from './components/SyncButton';
 
 export default {
-  register(app) {
-    app.addMenuLink({
-      to: `plugins/${PluginIcon}`,
-      icon: PluginIcon,
-      intlLabel: {
-        id: `${PLUGIN_ID}.plugin.name`,
-        defaultMessage: PLUGIN_ID,
-      },
-      Component: async () => {
-        const { App } = await import('./pages/App');
-
-        return App;
-      },
-    });
-
+  register(app : StrapiApp) {
     app.registerPlugin({
       id: PLUGIN_ID,
       initializer: Initializer,
@@ -27,7 +13,13 @@ export default {
     });
   },
 
-  async registerTrads({ locales }) {
+    bootstrap(app : StrapiApp) {
+    app.getPlugin('content-manager').injectComponent("listView", "actions", {
+      name: "SyncButton",
+      Component: SyncButton,
+    });
+  },
+  async registerTrads({ locales }: { locales: string[] }) {
     return Promise.all(
       locales.map(async (locale) => {
         try {

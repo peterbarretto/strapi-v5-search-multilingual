@@ -205,7 +205,6 @@ export default ({ strapi }: { strapi: any }) => ({
 
   async syncEntries(ctx: StrapiContext): Promise<string | boolean> {
     const cultures = await strapi.plugins.i18n.services.locales.find();
-
     const searchFilters = strapi.config.get("search.search_filters") || null;
     const { model = "" } = ctx.request.query;
     if (model == "") return false;
